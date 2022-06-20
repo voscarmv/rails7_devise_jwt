@@ -1,24 +1,23 @@
-# README
+# JWT authentication using Rails 7 with Devise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an improved version of https://github.com/voscarmv/rails_jwt
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+Remember to...
 
-* System dependencies
+```
+$ cd rails_jwt
+$ bundler
+$ echo "jwt_secret: `rails secret`"    # ...copy the output of this
+$ EDITOR=nano rails credentials:edit  # and paste it here.
+```
+Then just
 
-* Configuration
+```
+$ rails s
+```
 
-* Database creation
+# Testing
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Test this with https://github.com/voscarmv/JWT_tester
