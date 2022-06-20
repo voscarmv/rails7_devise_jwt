@@ -4,7 +4,7 @@ This is an improved version of https://github.com/voscarmv/rails_jwt
 
 Based on https://github.com/DakotaLMartinez/rails-devise-jwt-tutorial
 
-Rails 7 fix: https://github.com/DakotaLMartinez/rails-devise-jwt-tutorial/issues
+Rails 7 fix: https://github.com/DakotaLMartinez/rails-devise-jwt-tutorial/issues/1
 
 Changed fast_jsonapi to https://github.com/jsonapi-serializer/jsonapi-serializer
 
